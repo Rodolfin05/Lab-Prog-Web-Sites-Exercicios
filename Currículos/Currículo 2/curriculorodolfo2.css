@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    background-color: #696969;
+    color: #FFFFFF;
+    }
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #FFFFFF;
+}
+
+.barra {
+    text-align: center;
+    flex-basis: 25%;
+    background-color: #696969;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 1px 1px 2px 2px #FFFFFF;
+}
+
+.imagem img {
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+.conteudo {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #696969;
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #FFFFFF;
+}

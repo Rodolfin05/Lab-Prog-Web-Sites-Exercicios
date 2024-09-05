@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+    background-image: url(Imagens/codigos2.jpg);
+    color: #FFFFFF;
+    font-family: 'Arial', 'sans-serif';
+}
+
+header {
+    background-image: url(Imagens/codigos.jpg);
+    background-size: contain;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    
+    padding: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    background-size: contain;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.palestrantes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.palestrante {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.palestrante img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.palestrante h4 {
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.programacao {
+    text-align: center;
+}
+
+.programacao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.programacao li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.inscricao {
+    text-align: center;
+}
+
+.inscricao a {
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none; 
+    margin: 20px;
+}
+
+.info {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.info a {
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+}

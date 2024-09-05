@@ -1,0 +1,143 @@
+body {
+    background-color: #602B0F;
+    font-family: 'Arial', sans-serif;
+    color: #602B0F;
+    background-image: url(Imagens/coffee-beans-top-view-background.jpg);
+    background-size: cover;
+    margin: 40px;
+    margin-top: 7%;
+
+}
+
+header {
+    background-color: #FFE4C4;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navegacao h2 {
+    margin: 0;
+    text-align: center;
+    transition: color 0.3s;
+    flex-grow: 1;
+}
+
+.navegacao h2:hover {
+    color: #9D5623;
+}
+
+.navegacao .logo {
+    width: 15%;
+}
+
+.navegacao .carrinho {
+    width: 3%;
+} 
+
+.produtos h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.produtos {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    text-align: center;
+    flex: 1 1 20%;
+    max-width: 200px;
+    margin: 10px; 
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.funcionarios h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.funcionarios {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.funcionario {
+    text-align: center;
+    flex: 1 1 20%;
+    max-width: 300px;
+    margin: 10px; 
+}
+
+.funcionario img {
+    width: 90%;
+    max-width: 250px;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.localizacao h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.localizacao {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contato h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contato {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contato p {
+    margin-bottom: 5px;
+}
